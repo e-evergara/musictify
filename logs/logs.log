@@ -1,0 +1,80 @@
+2024-11-23T06:38:30.790-05:00  INFO 8179 --- [musictify] [restartedMain] c.h.app.musictify.MusictifyApplication   : Starting MusictifyApplication using Java 21 with PID 8179 (/Users/eevergara/Dev/Projects/Java/cursos/musictify/build/classes/java/main started by eevergara in /Users/eevergara/Dev/Projects/Java/cursos/musictify)
+2024-11-23T06:38:30.791-05:00  INFO 8179 --- [musictify] [restartedMain] c.h.app.musictify.MusictifyApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T06:38:30.817-05:00  INFO 8179 --- [musictify] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T06:38:30.823-05:00  INFO 8179 --- [musictify] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T06:38:31.168-05:00  INFO 8179 --- [musictify] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T06:38:31.177-05:00  INFO 8179 --- [musictify] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-11-23T06:38:31.429-05:00  INFO 8179 --- [musictify] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T06:38:31.442-05:00  INFO 8179 --- [musictify] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T06:38:31.442-05:00  INFO 8179 --- [musictify] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T06:38:31.469-05:00  INFO 8179 --- [musictify] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T06:38:31.469-05:00  INFO 8179 --- [musictify] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 646 ms
+2024-11-23T06:38:31.483-05:00  INFO 8179 --- [musictify] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T06:38:31.575-05:00  INFO 8179 --- [musictify] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:music user=SA
+2024-11-23T06:38:31.576-05:00  INFO 8179 --- [musictify] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T06:38:31.581-05:00  INFO 8179 --- [musictify] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:music'
+2024-11-23T06:38:31.655-05:00  INFO 8179 --- [musictify] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T06:38:31.698-05:00  INFO 8179 --- [musictify] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-23T06:38:31.712-05:00  INFO 8179 --- [musictify] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T06:38:31.847-05:00  INFO 8179 --- [musictify] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T06:38:31.868-05:00  WARN 8179 --- [musictify] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T06:38:31.873-05:00  INFO 8179 --- [musictify] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-23T06:38:32.294-05:00  INFO 8179 --- [musictify] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T06:38:32.312-05:00  INFO 8179 --- [musictify] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T06:38:32.337-05:00  WARN 8179 --- [musictify] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T06:38:32.508-05:00  INFO 8179 --- [musictify] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T06:38:32.524-05:00  INFO 8179 --- [musictify] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T06:38:32.531-05:00  INFO 8179 --- [musictify] [restartedMain] c.h.app.musictify.MusictifyApplication   : Started MusictifyApplication in 1.968 seconds (process running for 2.239)
+2024-11-23T06:39:02.661-05:00  INFO 8179 --- [musictify] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T06:39:02.662-05:00  INFO 8179 --- [musictify] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T06:39:02.665-05:00  INFO 8179 --- [musictify] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-11-23T06:39:43.801-05:00  INFO 8179 --- [musictify] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-23T06:39:43.814-05:00  INFO 8179 --- [musictify] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-23T06:39:43.823-05:00  INFO 8179 --- [musictify] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T06:39:43.838-05:00  WARN 8179 --- [musictify] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2024-11-23T06:39:43.840-05:00  INFO 8179 --- [musictify] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-23T06:39:43.843-05:00  INFO 8179 --- [musictify] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-23T06:39:45.078-05:00  INFO 8255 --- [musictify] [restartedMain] c.h.app.musictify.MusictifyApplication   : Starting MusictifyApplication using Java 21 with PID 8255 (/Users/eevergara/Dev/Projects/Java/cursos/musictify/build/classes/java/main started by eevergara in /Users/eevergara/Dev/Projects/Java/cursos/musictify)
+2024-11-23T06:39:45.079-05:00  INFO 8255 --- [musictify] [restartedMain] c.h.app.musictify.MusictifyApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-23T06:39:45.098-05:00  INFO 8255 --- [musictify] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-23T06:39:45.098-05:00  INFO 8255 --- [musictify] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-23T06:39:45.356-05:00  INFO 8255 --- [musictify] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-23T06:39:45.368-05:00  INFO 8255 --- [musictify] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2024-11-23T06:39:45.592-05:00  INFO 8255 --- [musictify] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-23T06:39:45.601-05:00  INFO 8255 --- [musictify] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-23T06:39:45.601-05:00  INFO 8255 --- [musictify] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-23T06:39:45.620-05:00  INFO 8255 --- [musictify] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-23T06:39:45.620-05:00  INFO 8255 --- [musictify] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 522 ms
+2024-11-23T06:39:45.633-05:00  INFO 8255 --- [musictify] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-23T06:39:45.697-05:00  INFO 8255 --- [musictify] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:music user=ROOT
+2024-11-23T06:39:45.698-05:00  INFO 8255 --- [musictify] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-23T06:39:45.703-05:00  INFO 8255 --- [musictify] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:music'
+2024-11-23T06:39:45.771-05:00  INFO 8255 --- [musictify] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-23T06:39:45.798-05:00  INFO 8255 --- [musictify] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-23T06:39:45.809-05:00  INFO 8255 --- [musictify] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-23T06:39:45.902-05:00  INFO 8255 --- [musictify] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-23T06:39:45.930-05:00  WARN 8255 --- [musictify] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-23T06:39:45.939-05:00  INFO 8255 --- [musictify] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-23T06:39:46.313-05:00  INFO 8255 --- [musictify] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-23T06:39:46.329-05:00  INFO 8255 --- [musictify] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-23T06:39:46.352-05:00  WARN 8255 --- [musictify] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-23T06:39:46.501-05:00  INFO 8255 --- [musictify] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-23T06:39:46.514-05:00  INFO 8255 --- [musictify] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-23T06:39:46.519-05:00  INFO 8255 --- [musictify] [restartedMain] c.h.app.musictify.MusictifyApplication   : Started MusictifyApplication in 1.618 seconds (process running for 1.814)
+2024-11-23T06:41:09.448-05:00  INFO 8255 --- [musictify] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-23T06:41:09.449-05:00  INFO 8255 --- [musictify] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-23T06:41:09.455-05:00  INFO 8255 --- [musictify] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
